@@ -1,0 +1,174 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar {
+    width: 0;
+  } 
+.margin_none{
+    margin: 0;
+}
+.main{
+    box-sizing: border-box;
+    background-image: url(../img/main_img2.jpg);
+    background-size: cover;
+    margin-top: 30px;
+    width:900px;
+    height: 900px;
+    padding: 30px;
+}
+/*for portraits*/
+.main_2{
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    width:900px;
+    padding:  30px 30px 0 30px;
+}
+.portraits_description{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: 90px 0 20px 0;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 255, 255);
+    width: 840px;
+    height: 900px;
+    margin-bottom: 20px;
+}
+.first_portrait{
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+}
+.second_portrait{
+    background-image: url(../img/p2.jpg);
+    background-size: cover;
+}
+.third_portrait{
+    background-image: url(../img/p3.jpg);
+    background-size: cover;
+    margin-bottom: 0;
+}
+.description{
+    box-sizing: border-box;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    width: 840px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*for portraits*/
+
+/*for blog*/
+.main_img_of_gallery{
+    width: 840px;
+    height: 840px;
+    background-color: blanchedalmond;
+    margin: 80px 0 20px 0;
+    background-image: url(../img/flowers.jpg);
+    background-size: cover;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+.indicator_conteiner{
+    display: flex;
+    flex-direction: row;
+}
+.indicator{
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 2px 0 2px;
+    border-radius: 50%;
+}
+button{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+button:hover{
+    color: rgb(216, 216, 216);
+}
+.active{
+    background-color: white;
+}
+/*for blog*/
+/* for contacts */
+.info{
+    margin-top: 50px;
+}
+.info img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+h1{
+    margin-top: 50px;
+}
+/* for contacts */
+.head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+.logo p{
+    font-size: 140%;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.navigation a{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 24%;
+}
+.navigation a:hover{border-top: 3px solid rgb(255, 255, 255);}
+
+footer{
+    font-size: 90%;
+    width:900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
