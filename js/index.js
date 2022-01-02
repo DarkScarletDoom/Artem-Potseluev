@@ -37,4 +37,13 @@ $(function() {
         highlight(conteiner);
     });
 
+    $(".mobile_menu_logo").click(function () {
+        if( $('.mobile_menu').css('display') == 'block'){
+            $('.mobile_menu').css('display', 'none');
+        }
+        else{
+            $('.mobile_menu').css('display', 'block');
+        }
+    });
+
 });
