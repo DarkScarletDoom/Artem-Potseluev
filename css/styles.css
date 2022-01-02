@@ -79,7 +79,6 @@ body{
 .main_img_of_gallery{
     width: 840px;
     height: 840px;
-    background-color: blanchedalmond;
     margin: 80px 0 20px 0;
     background-image: url(../img/flowers.jpg);
     background-size: cover;
